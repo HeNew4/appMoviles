@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+/* 
+    Se utiliza el display el display flex en el CSS
+    Se centra el contenido
+    se utiliza toda la pantalla
+    se resetea todo el margen
+    y se añade colores y fuente al archivo CSS
+*/
 body {
     display: flex;
     justify-content: center;
@@ -12,6 +19,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* 
+    Se utiliza el 100% display
+*/
 .calculator {
     width: 100%;
     max-width: 400px;
