@@ -22,6 +22,12 @@
 // console.log(hello());
 
 // function hello() {
+//     return{};    
+// }
+//
+// console.log(hello());
+
+// function hello() {
 //     return {
 //         nombre: 'Roul'
 //     }
@@ -57,6 +63,26 @@
  */
 function operacion(x, y) {
     return x - y;
+}
+
+/**
+ * Operación con dos numero
+ * @param {number} x primer numero
+ * @param {number} y segundo numero
+ * @returns returna el resultado
+ */
+function operacion(x, y) {
+    return x + y;
+}
+
+/**
+ * Operación con dos numero
+ * @param {number} x primer numero
+ * @param {number} y segundo numero
+ * @returns returna el resultado
+ */
+function operacion(x, y) {
+    return x * y;
 }
 
 console.log(operacion(30, 10));
