@@ -56,7 +56,7 @@ const sumar = (a, b) => a + b;
  */
 const objeto = () => ({ nombre: "Roberto", edad: 20 });
 
-/* ARREGLOS */
+/* == ARREGLOS == */
 /**
  * Funcion con un arreglo
  * @returns Arreglos del 1 al 5
